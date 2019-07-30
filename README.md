@@ -1,6 +1,6 @@
 # Notes on DNA methylation analysis
 
-Primarily array-oriented, human/mouse. These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/blogs/tree/master/Bioinformatics) and [references at MDmisc_notes](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
+Primarily array-oriented, human/mouse. These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
 
 * [Pipelines](#pipelines)
 * [Alignment](#alignment)
