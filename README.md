@@ -29,6 +29,9 @@ Primarily array-oriented, human/mouse. These notes are not intended to be compre
 
 ## Differential methylation
 
+- Review of differential methylation methods and 22 tools. Categorized by approaches. [Pros and cons of each approach](https://academic.oup.com/view-large/figure/121909042/bbx013f3.tif), [Table 1. Summary of the important characteristics of the 22 surveyed approaches](https://academic.oup.com/view-large/121909044), [Table 2. Comparison of the available implementations of the 22 surveyed approaches](https://academic.oup.com/view-large/121909057)
+    - Shafi, Adib, Cristina Mitrea, Tin Nguyen, and Sorin Draghici. “A Survey of the Approaches for Identifying Differential Methylation Using Bisulfite Sequencing Data.” Briefings in Bioinformatics, March 8, 2017. https://doi.org/10.1093/bib/bbx013.
+
 - `DMRcate` - https://bioconductor.org/packages/release/bioc/html/DMRcate.html
 - `metilene` - https://www.bioinf.uni-leipzig.de/Software/metilene/
 MOABS, BSmooth, 
