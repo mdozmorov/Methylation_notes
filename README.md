@@ -15,6 +15,9 @@ Primarily array-oriented, human/mouse. These notes are not intended to be compre
 
 - `MEAL` - Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Wraps other packages
 
+- `GLINT` - methylation array data analysis pipeline. Illumina 27K/450K/EPIC. ReFACTor to adjust for tissue heterogeneity, inferring population structure, imputation, association testing, basic visualization. Python implementation. https://github.com/cozygene/glint
+    - Rahmani, Elior, Reut Yedidim, Liat Shenhav, Regev Schweiger, Omer Weissbrod, Noah Zaitlen, and Eran Halperin. “GLINT: A User-Friendly Toolset for the Analysis of High-Throughput DNA-Methylation Array Data.” Edited by John M Hancock. Bioinformatics 33, no. 12 (June 15, 2017): 1870–72. https://doi.org/10.1093/bioinformatics/btx059.
+
 
 ## Alignment
 
