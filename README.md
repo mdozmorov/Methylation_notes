@@ -13,6 +13,8 @@ Primarily array-oriented, human/mouse. These notes are not intended to be compre
 
 ## Pipelines
 
+- `scRRBS` - single-cell RRBS notes and scripts by Ming Tang, https://gitlab.com/tangming2005/scRRBS, start with https://gitlab.com/tangming2005/scRRBS/blob/master/quality_control.md
+
 - `MEAL` - Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Wraps other packages
 
 - `GLINT` - methylation array data analysis pipeline. Illumina 27K/450K/EPIC. ReFACTor to adjust for tissue heterogeneity, inferring population structure, imputation, association testing, basic visualization. Python implementation. https://github.com/cozygene/glint
