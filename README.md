@@ -13,15 +13,14 @@ Primarily array-oriented, human/mouse. These notes are not intended to be compre
 
 ## Pipelines
 
-- `scRRBS` - single-cell RRBS notes and scripts by Ming Tang, https://gitlab.com/tangming2005/scRRBS, start with https://gitlab.com/tangming2005/scRRBS/blob/master/quality_control.md
 
-- `MEAL` - Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Wraps other packages
+- [**MEAL**](https://www.bioconductor.org/packages/release/bioc/html/MEAL.html) - R/Bioconductor Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Wraps other packages
 
-- `GLINT` - methylation array data analysis pipeline. Illumina 27K/450K/EPIC. ReFACTor to adjust for tissue heterogeneity, inferring population structure, imputation, association testing, basic visualization. Python implementation. https://github.com/cozygene/glint
-    - Rahmani, Elior, Reut Yedidim, Liat Shenhav, Regev Schweiger, Omer Weissbrod, Noah Zaitlen, and Eran Halperin. “GLINT: A User-Friendly Toolset for the Analysis of High-Throughput DNA-Methylation Array Data.” Edited by John M Hancock. Bioinformatics 33, no. 12 (June 15, 2017): 1870–72. https://doi.org/10.1093/bioinformatics/btx059.
+- [**GLINT**](https://github.com/cozygene/glint) - methylation array data analysis pipeline. Illumina 27K/450K/EPIC. ReFACTor to adjust for tissue heterogeneity, inferring population structure, imputation, association testing, basic visualization. Python implementation. 
+    - Rahmani, Elior, Reut Yedidim, Liat Shenhav, Regev Schweiger, Omer Weissbrod, Noah Zaitlen, and Eran Halperin. “[**GLINT: A User-Friendly Toolset for the Analysis of High-Throughput DNA-Methylation Array Data.**](https://doi.org/10.1093/bioinformatics/btx059)” Edited by John M Hancock. Bioinformatics 33, no. 12 (June 15, 2017): 1870–72.
 
-- `methylpy` - processing bidulfite sequencing and NOME-seq data, supports single- and paired-end data, read trimming, QC, duplicate removal, outputs methylation states and/or open chromatin, differentially methylated region calling at single cytosine level, multi-group comparison. https://github.com/yupenghe/methylpy
-    - Schultz, Matthew D., Yupeng He, John W. Whitaker, Manoj Hariharan, Eran A. Mukamel, Danny Leung, Nisha Rajagopal, et al. “Human Body Epigenome Maps Reveal Noncanonical DNA Methylation Variation.” Nature 523, no. 7559 (July 9, 2015): 212–16. https://doi.org/10.1038/nature14465.
+- [**methylpy**](https://github.com/yupenghe/methylpy) - processing bidulfite sequencing and NOME-seq data, supports single- and paired-end data, read trimming, QC, duplicate removal, outputs methylation states and/or open chromatin, differentially methylated region calling at single cytosine level, multi-group comparison. 
+    - Schultz, Matthew D., Yupeng He, John W. Whitaker, Manoj Hariharan, Eran A. Mukamel, Danny Leung, Nisha Rajagopal, et al. “[**Human Body Epigenome Maps Reveal Noncanonical DNA Methylation Variation.**](https://doi.org/10.1038/nature14465)” Nature 523, no. 7559 (July 9, 2015): 212–16.
 
 
 ## Alignment
