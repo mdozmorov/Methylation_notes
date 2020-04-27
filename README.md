@@ -13,6 +13,8 @@ Primarily array-oriented, human/mouse. These notes are not intended to be compre
 
 ## Pipelines
 
+- [**RnBeads 2.0**](https://rnbeads.org/) - Full analysis pipeline for Illumina 27K/450K/EPIC arrays, WGBS/RRBS/target bisulfite seq. Figure 1 - all steps, from QC, preprocessing, exploratory analysis, to differential methylation/region analysis. New analyses include sex prediction, genetic purity, CNV analysis, cell type inference, age prediction, and more. 
+    - Müller, Fabian, Michael Scherer, Yassen Assenov, Pavlo Lutsik, Jörn Walter, Thomas Lengauer, and Christoph Bock. “[**RnBeads 2.0: Comprehensive Analysis of DNA Methylation Data.**](https://doi.org/10.1186/s13059-019-1664-9)” Genome Biology 20, no. 1 (December 2019): 55. 
 
 - [**MEAL**](https://www.bioconductor.org/packages/release/bioc/html/MEAL.html) - R/Bioconductor Package to integrate methylation and expression data. It can also perform methylation or expression analysis alone. Wraps other packages
 
