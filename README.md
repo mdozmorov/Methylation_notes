@@ -76,6 +76,8 @@ MOABS, BSmooth,
 
 ## Misc
 
+- [EWASdb](http://www.bioapp.org/ewasdb/index.php/Index/index) - EWASdb is the first epigenome-wide association database (first online at 2015, and first published on Nucleic Acids Res. 2018 Oct 13) which stores the results of 1319 EWAS studies associated with 302 diseases/phenotypes (p<1e-7). Three types of EWAS results were stored in EWASdb: EWAS for single epi-marker; EWAS for KEGG pathway and EWAS for GO (Gene Ontology) categories. http://www.bioapp.org/ewasdb/
+
 - `CoRSIVs` - 9926 correlated regions of systemin interindividual variation of DNA methylation. GTEx data. Enriched in subtelomeric regions, transposable elements, depleted in TFBSs. Enriched in Quiescent regions, repressive polycomb marks, depleted in heterochromatin, active promoters and enhancers (bivalent). Likely genetically driven. [Supplementary matierial](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1708-1#Sec13): table S2 - all significant 39,424, S3 - filtered 9,926, S13 - 1659 450K probes overlapping 819 CoRSIVs.
     - Gunasekara, Chathura J., C. Anthony Scott, Eleonora Laritsky, Maria S. Baker, Harry MacKay, Jack D. Duryea, Noah J. Kessler, et al. “A Genomic Atlas of Systemic Interindividual Epigenetic Variation in Humans.” Genome Biology 20, no. 1 (December 2019): 105. https://doi.org/10.1186/s13059-019-1708-1.
 
