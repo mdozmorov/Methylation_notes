@@ -1,15 +1,23 @@
-# Notes on DNA methylation analysis
+# DNA methylation notes
 
-Primarily array-oriented, human/mouse. These notes are not intended to be comprehensive. They include notes about methods, packages and tools I would like to explore. For a comprehensive overview of the subject, consider [other bioinformatics resources](https://github.com/mdozmorov/Bioinformatics_notes) and [collections of links to various resources](https://github.com/mdozmorov/MDmisc_notes). Issues with suggestions and pull requests are welcome!
+Methylation-related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
-* [Pipelines](#pipelines)
-* [Alignment](#alignment)
-* [Preprocessing](#preprocessing)
-* [Differential methylation](#differential-methylation)
-* [CNV](#cnv)
-* [Integrative](#integrative)
-* [Misc](#misc)
+# Table of content
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Pipelines](#pipelines)
+- [Alignment](#alignment)
+- [Preprocessing](#preprocessing)
+- [Differential methylation](#differential-methylation)
+- [Deconvolution](#deconvolution)
+- [CNV](#cnv)
+- [Integrative](#integrative)
+- [Misc](#misc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Pipelines
 
