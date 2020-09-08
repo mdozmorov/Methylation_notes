@@ -1,5 +1,7 @@
 # DNA methylation notes
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
+
 Methylation-related tools and genomics data analysis resources. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
 # Table of content
@@ -34,6 +36,9 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 
 
 ## Alignment
+
+- Benchmarking of whole-genome bisulfite converted sequencing data (WGS methylation). Nine tools, tested on simulated data. BWA-mem and BSMAP perform best, Bismark and others are close, often faster and less memory demanding
+    - Nunn, Adam, Cristian Otto, Peter F Stadler, and David Langenberger. “[Comprehensive Benchmarking of Software for Mapping Whole Genome Bisulfite Data: From Read Alignment to DNA Methylation Analysis](https://doi.org/10.1101/2020.08.28.271585).” BioRxiv, 2020.
 
 - `bwa-meth` - fast and accurate alignment of BS-Seq reads https://arxiv.org/abs/1401.1129. https://github.com/brentp/bwa-meth
 - `GemBS` - alignment to converted and regular reference genome, calling methylated CpGs. http://statgen.cnag.cat/gemBS/
