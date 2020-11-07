@@ -43,6 +43,8 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 - `bwa-meth` - fast and accurate alignment of BS-Seq reads https://arxiv.org/abs/1401.1129. https://github.com/brentp/bwa-meth
 - `GemBS` - alignment to converted and regular reference genome, calling methylated CpGs. http://statgen.cnag.cat/gemBS/
 
+- [MOABS](https://code.google.com/archive/p/moabs/) - bisulfite sequencing data processing and differential analysis pipeline. Beta-binomial hierarchical model, priors estimated using an Empirical Bayes approach. Credible methylation differences (CDIFs) better capture the biology of methylation differences. Outperforms BSmooth. Can account for CNVs. C++ implementation 
+    - Sun, Deqiang, Yuanxin Xi, Benjamin Rodriguez, Hyun Jung Park, Pan Tong, Mira Meong, Margaret A Goodell, and Wei Li. “[MOABS: Model Based Analysis of Bisulfite Sequencing Data](https://doi.org/10.1186/gb-2014-15-2-r38),” 2014, 12.
 
 ## Preprocessing
 
