@@ -48,6 +48,8 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 
 ## Preprocessing
 
+- [MethylDackel](https://github.com/dpryan79/MethylDackel) - A (mostly) universal methylation extractor for BS-seq experiments. Will process a coordinate-sorted and indexed BAM or CRAM file containing some form of BS-seq alignments and extract per-base methylation metrics from them.
+
 - `ENmix` - data preprocessing, batch, PCA. https://www.bioconductor.org/packages/release/bioc/html/ENmix.html
 
 
