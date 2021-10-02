@@ -72,6 +72,8 @@ MOABS, BSmooth,
 
 ## Deconvolution
 
+- [deconvR](https://github.com/BIMSBbioinfo/deconvR) - an R package designed for analyzing deconvolution of the bulk sample(s) using an atlas of reference omic signature profiles and a user-selected model. Works with RNA-seq, array- and whole genome DNA methylation.
+
 - https://github.com/stephaniehicks/methylCC - R/BioC package to estimate the cell composition of whole blood in DNA methylation samples in microarray or sequencing platforms
 
 
