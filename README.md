@@ -11,7 +11,7 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 
 
 - [Pipelines](#pipelines)
-- [Alignment](#alignment)
+  - [Bisulfite sequening](#bisulfite-sequening)
 - [Preprocessing](#preprocessing)
 - [Differential methylation](#differential-methylation)
 - [Deconvolution](#deconvolution)
@@ -31,17 +31,19 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 - [**GLINT**](https://github.com/cozygene/glint) - methylation array data analysis pipeline. Illumina 27K/450K/EPIC. ReFACTor to adjust for tissue heterogeneity, inferring population structure, imputation, association testing, basic visualization. Python implementation. 
     - Rahmani, Elior, Reut Yedidim, Liat Shenhav, Regev Schweiger, Omer Weissbrod, Noah Zaitlen, and Eran Halperin. “[**GLINT: A User-Friendly Toolset for the Analysis of High-Throughput DNA-Methylation Array Data.**](https://doi.org/10.1093/bioinformatics/btx059)” Edited by John M Hancock. Bioinformatics 33, no. 12 (June 15, 2017): 1870–72.
 
-- [**methylpy**](https://github.com/yupenghe/methylpy) - processing bidulfite sequencing and NOME-seq data, supports single- and paired-end data, read trimming, QC, duplicate removal, outputs methylation states and/or open chromatin, differentially methylated region calling at single cytosine level, multi-group comparison. 
-    - Schultz, Matthew D., Yupeng He, John W. Whitaker, Manoj Hariharan, Eran A. Mukamel, Danny Leung, Nisha Rajagopal, et al. “[**Human Body Epigenome Maps Reveal Noncanonical DNA Methylation Variation.**](https://doi.org/10.1038/nature14465)” Nature 523, no. 7559 (July 9, 2015): 212–16.
-
-
-## Alignment
+### Bisulfite sequening
 
 - Benchmarking of whole-genome bisulfite converted sequencing data (WGS methylation). Nine tools, tested on simulated data. BWA-mem and BSMAP perform best, Bismark and others are close, often faster and less memory demanding
     - Nunn, Adam, Cristian Otto, Peter F Stadler, and David Langenberger. “[Comprehensive Benchmarking of Software for Mapping Whole Genome Bisulfite Data: From Read Alignment to DNA Methylation Analysis](https://doi.org/10.1101/2020.08.28.271585).” BioRxiv, 2020.
 
-- `bwa-meth` - fast and accurate alignment of BS-Seq reads https://arxiv.org/abs/1401.1129. https://github.com/brentp/bwa-meth
-- `GemBS` - alignment to converted and regular reference genome, calling methylated CpGs. http://statgen.cnag.cat/gemBS/
+- [Meth10X](https://github.com/luuloi/Meth10X) - Whole Genome Bisulfite Sequencing Alignment pipeline. Includes SNP calling, region calling (partial methylation, low, high etc.), basic downstream analyses. Designed for SGE/PBS clusters. Built based on in-house bash/python/perl/R script, Bpipe and common alignment tools.
+
+- [bwa-meth](https://github.com/brentp/bwa-meth) - fast and accurate alignment of BS-Seq reads https://arxiv.org/abs/1401.1129. 
+
+- [GemBS](http://statgen.cnag.cat/gemBS/) - alignment to converted and regular reference genome, calling methylated CpGs. 
+
+- [methylpy](https://github.com/yupenghe/methylpy) - processing bisulfite sequencing and NOME-seq data, supports single- and paired-end data, read trimming, QC, duplicate removal, outputs methylation states and/or open chromatin, differentially methylated region calling at single cytosine level, multi-group comparison. 
+    - Schultz, Matthew D., Yupeng He, John W. Whitaker, Manoj Hariharan, Eran A. Mukamel, Danny Leung, Nisha Rajagopal, et al. “[**Human Body Epigenome Maps Reveal Noncanonical DNA Methylation Variation.**](https://doi.org/10.1038/nature14465)” Nature 523, no. 7559 (July 9, 2015): 212–16.
 
 - [MOABS](https://code.google.com/archive/p/moabs/) - bisulfite sequencing data processing and differential analysis pipeline. Beta-binomial hierarchical model, priors estimated using an Empirical Bayes approach. Credible methylation differences (CDIFs) better capture the biology of methylation differences. Outperforms BSmooth. Can account for CNVs. C++ implementation 
     - Sun, Deqiang, Yuanxin Xi, Benjamin Rodriguez, Hyun Jung Park, Pan Tong, Mira Meong, Margaret A Goodell, and Wei Li. “[MOABS: Model Based Analysis of Bisulfite Sequencing Data](https://doi.org/10.1186/gb-2014-15-2-r38),” 2014, 12.
