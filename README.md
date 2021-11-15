@@ -42,6 +42,8 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 
 - [GemBS](http://statgen.cnag.cat/gemBS/) - alignment to converted and regular reference genome, calling methylated CpGs. 
 
+- [MethylDackel](https://github.com/dpryan79/MethylDackel) - A (mostly) universal methylation extractor for BS-seq experiments. Will process a coordinate-sorted and indexed BAM or CRAM file containing some form of BS-seq alignments and extract per-base methylation metrics from them.
+
 - [methylpy](https://github.com/yupenghe/methylpy) - processing bisulfite sequencing and NOME-seq data, supports single- and paired-end data, read trimming, QC, duplicate removal, outputs methylation states and/or open chromatin, differentially methylated region calling at single cytosine level, multi-group comparison. 
     - Schultz, Matthew D., Yupeng He, John W. Whitaker, Manoj Hariharan, Eran A. Mukamel, Danny Leung, Nisha Rajagopal, et al. “[**Human Body Epigenome Maps Reveal Noncanonical DNA Methylation Variation.**](https://doi.org/10.1038/nature14465)” Nature 523, no. 7559 (July 9, 2015): 212–16.
 
@@ -49,8 +51,6 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
     - Sun, Deqiang, Yuanxin Xi, Benjamin Rodriguez, Hyun Jung Park, Pan Tong, Mira Meong, Margaret A Goodell, and Wei Li. “[MOABS: Model Based Analysis of Bisulfite Sequencing Data](https://doi.org/10.1186/gb-2014-15-2-r38),” 2014, 12.
 
 ## Preprocessing
-
-- [MethylDackel](https://github.com/dpryan79/MethylDackel) - A (mostly) universal methylation extractor for BS-seq experiments. Will process a coordinate-sorted and indexed BAM or CRAM file containing some form of BS-seq alignments and extract per-base methylation metrics from them.
 
 - `ENmix` - data preprocessing, batch, PCA. https://www.bioconductor.org/packages/release/bioc/html/ENmix.html
 
