@@ -17,6 +17,7 @@ Methylation-related tools and genomics data analysis resources. Please, [contrib
 - [Deconvolution](#deconvolution)
 - [CNV](#cnv)
 - [Integrative](#integrative)
+- [Data](#data)
 - [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -94,8 +95,12 @@ MOABS, BSmooth,
 
 - `MLExpResso` - Package for analyzing genes expression and CpG probes metylation. https://geneticsmining.github.io/MLGenSig/index.html
 
+## Data
 
-## Misc
+- [DNA methylation atlas](http://neomorph.salk.edu/omb/) of the mouse brain, single-nucleus sequencing (snmC-seq2, [pipeline](https://hq-1.gitbook.io/mc/), [ALLCools: ALL methyl-Cytosine tools](https://github.com/lhqing/ALLCools)). 103,982 nuclei (including 95,815 neurons and 8,167 non-neuronal cells) from 45 regions of the mouse cortex, hippocampus, striatum, pallidum and olfactory areas. 161 cell clusters with distinct spatial locations and projection targets. Integration with scATAC-seq confirms cell types and identifies enhancer-gene interactions. HDF5 data on [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132489), and links to individual experiments and data in TSV format. Data on [Nemoarchive](https://assets.nemoarchive.org/dat-vmivr5x). [Merged methylome viewer](http://neomorph.salk.edu/mouse_brain.php). [Brain Cell Methylation Viewer](http://neomorph.salk.edu/omb/) to view gene, brain region, cell type. <details>
+    <summary>Paper</summary>
+    Liu, Hanqing, Jingtian Zhou, Wei Tian, Chongyuan Luo, Anna Bartlett, Andrew Aldridge, Jacinta Lucero, et al. “DNA Methylation Atlas of the Mouse Brain at Single-Cell Resolution.” Nature 598, no. 7879 (October 7, 2021): 120–28. https://doi.org/10.1038/s41586-020-03182-8.
+</details>
 
 - [EWASdb](http://www.bioapp.org/ewasdb/index.php/Index/index) - EWASdb is the first epigenome-wide association database (first online at 2015, and first published on Nucleic Acids Res. 2018 Oct 13) which stores the results of 1319 EWAS studies associated with 302 diseases/phenotypes (p<1e-7). Three types of EWAS results were stored in EWASdb: EWAS for single epi-marker; EWAS for KEGG pathway and EWAS for GO (Gene Ontology) categories. http://www.bioapp.org/ewasdb/
 
@@ -104,6 +109,9 @@ MOABS, BSmooth,
 - `CoRSIVs` - 9926 correlated regions of systemin interindividual variation of DNA methylation. GTEx data. Enriched in subtelomeric regions, transposable elements, depleted in TFBSs. Enriched in Quiescent regions, repressive polycomb marks, depleted in heterochromatin, active promoters and enhancers (bivalent). Likely genetically driven. [Supplementary matierial](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1708-1#Sec13): table S2 - all significant 39,424, S3 - filtered 9,926, S13 - 1659 450K probes overlapping 819 CoRSIVs.
     - Gunasekara, Chathura J., C. Anthony Scott, Eleonora Laritsky, Maria S. Baker, Harry MacKay, Jack D. Duryea, Noah J. Kessler, et al. “A Genomic Atlas of Systemic Interindividual Epigenetic Variation in Humans.” Genome Biology 20, no. 1 (December 2019): 105. https://doi.org/10.1186/s13059-019-1708-1.
 
+- The 450K array measures the methylation status of 485,512 methylcytosine sites in the human genome at a single nucleotide resolution, representing approximately 1.5% of total genomic CpG sites [22126295, 21593595]. While the assayed CpG sites are concentrated around promoter regions and gene bodies, approximately 25% are located in intergenic regions [22126295].
+
+## Misc
+
 - Methylation inhibits TFBSs, but some factors, like homeodomain, POU, NFAT, prefer binding to methylated DNA. These TFs play a role in embryonic and organismal development. Yin, Yimeng, Ekaterina Morgunova, Arttu Jolma, Eevi Kaasinen, Biswajyoti Sahu, Syed Khund-Sayeed, Pratyush K. Das, et al. “Impact of Cytosine Methylation on DNA Binding Specificities of Human Transcription Factors.” Science (New York, N.Y.) 356, no. 6337 (May 5, 2017). doi:10.1126/science.aaj2239.
 
-- The 450K array measures the methylation status of 485,512 methylcytosine sites in the human genome at a single nucleotide resolution, representing approximately 1.5% of total genomic CpG sites [22126295, 21593595]. While the assayed CpG sites are concentrated around promoter regions and gene bodies, approximately 25% are located in intergenic regions [22126295].
