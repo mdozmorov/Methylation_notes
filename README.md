@@ -99,6 +99,11 @@ MOABS, BSmooth,
 
 ## Data
 
+- [EpiSCORE DNAm atlas](https://www.biosino.org/episcore/) - EpiSCORE DNAm-atlas is a database of tissue-specific mRNA and DNA methylation (DNAm) reference matrices, constructed from high-resolution single-cell RNA-sequencing datasets. In conjunction with a reference-based cell-type deconvolution algorithm, it can be used to perform cell-type deconvolution on bulk-tissue mRNA and DNAm datasets. The current 1st version of the DNAm-atlas consists of mRNA and DNAm reference matrices encompassing 13 tissue-types and 40 cell-types. All the reference matrices are free to download here. <details>
+    <summary>Paper</summary>
+    Zhu, Tianyu. “A Pan-Tissue DNA Methylation Atlas Enables in Silico Decomposition of Human Tissue Methylomes at Cell-Type Resolution.” Nature Methods 19 (2022). https://doi.org/10.1038/s41592-022-01412-7
+</details>
+
 - DNA methylation atlas of normal human cell types (39 sorted cell types). Whole-genome bisulfite sequencing, fragment-level analysis. 99.5% reproducibility within the same cell type. Reconstructs lineages. Cell type-specific markers as putative enhancers, associated with various epigenetic marks. A role for DNA methylation to attenuate CTCF binding and modulate cell-specific 3D structure. hg19, hg38 genome assembly, BED, BigWig files at [GSE186458](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186458). Supplementary tables with most variable methylation blocks, cell type-specific unmethylated markers, markers enriched for functional terms, gene associations, cell type-specific markers on methylation arrays. [wgbs_tools](https://github.com/nloyfer/wgbs_tools) for alignment/visualization, [UXM_deconv](https://github.com/nloyfer/UXM_deconv) for deconvolution. <details>
     <summary>Paper</summary>
     Loyfer, N., Magenheim, J., Peretz, A. et al. A DNA methylation atlas of normal human cell types. Nature 613, 355–364 (2023). https://doi.org/10.1038/s41586-022-05580-6
